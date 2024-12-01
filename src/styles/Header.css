@@ -1,0 +1,90 @@
+/* Estils globals del header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    position: fixed; /* Fixat a la part superior */
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Part esquerra: botó de menú i logotip */
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu-button {
+    border: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+  }
+  
+  .menu-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .logo img {
+    height: 32px; /* Ajusta l'altura del logo */
+    max-width: 100%;
+  }
+  
+  .header-center {
+    display: flex;
+    justify-content: flex-start; /* Acosta els elements cap a l'esquerra */
+    margin-left: 150px; /* Apropa el menú al logo */
+  }
+  
+  .menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    transition: border-bottom 0.3s;
+  }
+  
+  .menu li a:hover {
+    border-bottom: 2px solid white; /* Efecte visual per al hover */
+  }
+  
+  /* Part dreta: cerca i usuari */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+  }
+  
+  .search-button,
+  .user-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .search-button svg,
+  .user-button svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }

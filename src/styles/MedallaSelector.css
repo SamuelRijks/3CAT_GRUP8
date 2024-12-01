@@ -1,0 +1,73 @@
+.medalla-selector-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.medalla-selector {
+  background: #1E1E1E;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 1450px;
+  height: auto;
+  color: white;
+}
+
+.grid-medalla-selector {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* 7 columnes */
+  grid-template-rows: repeat(2, 1fr);
+  /* 2 files */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.medalla-slot {
+  position: relative;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 34px;
+}
+
+.medalla-slot.bloquejada {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.medalla-slot:hover {
+  background: #444444;
+}
+
+.treure-medalla,
+.cancelar {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background: #b82a4e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.treure-medalla:hover,
+.cancelar:hover {
+  background: #d23b5f;
+}

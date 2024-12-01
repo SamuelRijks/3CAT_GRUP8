@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px;
+  padding-top: 100px;
+}
+
+.info-perfil {
+  flex: 1;
+  max-width: 30%; /* Limita l'amplada del perfil */
+}
+
+.medalles {
+  flex: 2; /* Farem servir dos terços */
+  max-width: 70%; /* 2/3 de l'amplada */
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

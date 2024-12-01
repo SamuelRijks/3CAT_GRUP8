@@ -1,0 +1,6 @@
+.medalles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* El títol es manté a l'esquerra */
+    padding: 20px;
+  }

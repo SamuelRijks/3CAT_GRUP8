@@ -1,0 +1,34 @@
+.medalla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+  }
+  
+  .medalla-imatge {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .medalla-nom {
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .medalla-text {
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  .medalla:hover .medalla-text {
+    color: #b82a4e; /* Canvia el color del text en hover */
+  }

@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Projecte de Selecció de Medalles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El projecte proposa una gamificació innovadora de la plataforma 3CAT per incentivar la participació activa dels usuaris. Es basa en un sistema de medalles, insígnies i opcions de personalització del perfil com a reconeixement de la seva activitat i contribució, creant un entorn col·laboratiu i participatiu.
 
-## Available Scripts
+## Funcionalitats
 
-In the project directory, you can run:
+- **Visualització de Medalles**: Mostra una llista de medalles disponibles en una quadrícula.
+- **Selecció de Medalles**: Permet als usuaris seleccionar medalles de la llista disponible.
+- **Medalles Bloquejades**: Algunes medalles estan bloquejades i no es poden seleccionar. Aquestes medalles s'indiquen amb una icona de cadenat a la cantonada superior.
+- **Desbloqueig de Medalles**: Les medalles bloquejades es mostren a la quadrícula però no es poden seleccionar.
+- **Efecte Hover**: Efecte de hover a les medalles i a la barra de nivell.
 
-### `npm start`
+## Instal·lació
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clona el repositori:
+   ```sh
+   git clone https://github.com/el-teu-usuari/el-teu-repositori.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Navega al directori del projecte:
+    ``sh
+    cd el-teu-repositori
+3. Instal·la les dependències:
+    ``sh
+    npm install
 
-### `npm test`
+## ÚS
+    1. Inicia l'aplicació:
+        ``sh
+        npm start
+    2. Obre el teu navegador i navega a http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

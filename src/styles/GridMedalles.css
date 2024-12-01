@@ -1,0 +1,44 @@
+.contenidor-medalles {
+  width: 850px;
+  height: 500px;
+  background-color: #1E1E1E; /* Color de fons */
+  border-radius: 20px; /* Cantonades arrodonides */
+  display: flex; /* Flexbox per centrar el grid */
+  justify-content: center; /* Centrar horitzontalment */
+  align-items: center; /* Centrar verticalment */
+  margin: 0 auto; /* Centrar tot el contenidor dins del seu pare */
+  margin-top: 50px;
+}
+
+.grid-medalles {
+  width: 790px; /* Amplada del grid */
+  height: 450px; /* Alçada del grid */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnes */
+  gap: 0; /* Espai entre medalles */
+  background-color: transparent; /* Fons transparent */
+  justify-content: center; /* Centrar horitzontalment */
+  align-items: center; /* Centrar verticalment */
+}
+
+.medalla-slot {
+  width: 190px; /* Dimensions de cada medalla */
+  height: 190px;
+  background: #333333; /* Color de fons */
+  border-radius: 25px; /* Cantonades arrodonides */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.medalla-slot.amb-medalla {
+  background: #616161; /* Color de fons per a slots amb medalla */
+}
+
+.medalla-slot:hover {
+  background: #444444;
+}

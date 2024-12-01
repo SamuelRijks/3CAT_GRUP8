@@ -1,0 +1,26 @@
+.titol-medalles-container {
+    position: relative; /* Permet que el títol es posicioni dins del contenidor */
+    left: 0;
+  }
+  
+  .titol-medalles {
+    position: absolute; /* Permet que el títol es "xafant" */
+    top: -35px; /* Ajust vertical per "xafar" el grid */
+    right: 5%; /* Centrat horitzontalment */
+    transform: translateX(-50%); /* Centrat horitzontalment respecte al punt central */
+    width: 600px; /* Amplada del contenidor del títol */
+    height: 80px; /* Alçada del contenidor del títol */
+    background-color: #1E1E1E; /* Color de fons */
+    border-radius: 10px; /* Cantonades arrodonides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Ombra subtil per destacar */
+    margin-top: 50px;
+  }
+  
+  .titol-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
