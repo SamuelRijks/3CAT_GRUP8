@@ -14,7 +14,7 @@ El projecte proposa una gamificació innovadora de la plataforma 3CAT per incent
 
 1. Clona el repositori:
    ```sh
-   git clone https://github.com/el-teu-usuari/el-teu-repositori.git
+   git clone https://github.com/SamuelRijks/3CAT_GRUP8.git
 
 2. Navega al directori del projecte:
     ``sh
@@ -27,5 +27,6 @@ El projecte proposa una gamificació innovadora de la plataforma 3CAT per incent
     1. Inicia l'aplicació:
         ``sh
         npm start
+        
     2. Obre el teu navegador i navega a http://localhost:3000.
 
