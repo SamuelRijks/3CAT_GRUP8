@@ -1,4 +1,4 @@
-# Projecte de Selecció de Medalles
+# Projecte 3CAT 
 
 El projecte proposa una gamificació innovadora de la plataforma 3CAT per incentivar la participació activa dels usuaris. Es basa en un sistema de medalles, insígnies i opcions de personalització del perfil com a reconeixement de la seva activitat i contribució, creant un entorn col·laboratiu i participatiu.
 
