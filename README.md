@@ -17,16 +17,16 @@ El projecte proposa una gamificació innovadora de la plataforma 3CAT per incent
    git clone https://github.com/SamuelRijks/3CAT_GRUP8.git
 
 2. Navega al directori del projecte:
-    ``sh
+    ```sh
     cd el-teu-repositori
 3. Instal·la les dependències:
-    ``sh
+    ```sh
     npm install
 
 ## ÚS
-    1. Inicia l'aplicació:
-        ``sh
+   1. Inicia l'aplicació:
+      ```sh
         npm start
         
-    2. Obre el teu navegador i navega a http://localhost:3000.
+   3. Obre el teu navegador i navega a http://localhost:3000.
 
